@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; }
+        .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+        h1 { text-align: center; color: #333; }
+        .admin-actions { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 32px;}
+        .action-card { background: #e9ecef; padding: 24px; border-radius: 6px; min-width: 200px; text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,0.07);}
+        .action-card button { padding: 10px 20px; border: none; border-radius: 4px; background: #007bff; color: #fff; cursor: pointer;}
+        .action-card button:hover { background: #0056b3;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Panel</h1>
+        <div class="admin-actions">
+            <div class="action-card">
+                <h2>Manage Users</h2>
+                <button onclick="alert('Manage Users clicked')">Go</button>
+            </div>
+            <div class="action-card">
+                <h2>View Reports</h2>
+                <button onclick="alert('View Reports clicked')">Go</button>
+            </div>
+            <div class="action-card">
+                <h2>Settings</h2>
+                <button onclick="alert('Settings clicked')">Go</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
